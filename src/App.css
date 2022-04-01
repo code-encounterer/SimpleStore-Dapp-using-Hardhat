@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+.center {
+    margin: 15% 28%;
+    /* margin: auto; */
+    width: 40%;
+    border: 1px solid black;
+    padding: 10px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3 {
+    margin-left: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+    border-radius: 2px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button:hover {
+    background-color: #3e8e41;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input[type="text"] {
+    width: 70%;
+    padding: 8px 30px;
+    margin: 8px 34px;
+    box-sizing: border-box;
 }
